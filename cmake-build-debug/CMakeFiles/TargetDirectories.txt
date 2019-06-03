@@ -1,0 +1,3 @@
+/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles/SFMLApp.dir
+/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles/edit_cache.dir

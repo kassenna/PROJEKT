@@ -1,0 +1,24 @@
+0000 0000	void		00
+0000 0001	key		01
+0000 0010	start		02
+0000 0011	meta		03	
+0000 0100	ghost pion	04
+0000 1000	ghost poziom	08
+0000 1100	ghost mig	0A
+0001 0000	portal		10
+0010 0000	jednok		20
+0100 0000	kolce		40
+
+1000 0000	blok		80
+1000 xxxx	kolce		81-8F
+1001 xxxx	pion		90-9f
+1010 xxxx	poziom		A0-AF
+1100 xxxx	mig		C0-Cf
+1101 xxxx	lock		D0-Df
+1111 1111	eof		FF
+
+
+0xxxxxxxx
+000000000
+111111111
+			

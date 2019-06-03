@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PROJEKT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLApp">
+				<Option output="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/SFMLApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kasia/CLionProjects/PROJEKT/SFML_INCLUDE_DIR"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLApp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLApp/fast">
+				<Option output="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/SFMLApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kasia/CLionProjects/PROJEKT/SFML_INCLUDE_DIR"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLApp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Blocks.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Blocks.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Corners.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Corners.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Create_map.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/EXception.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Ghost.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Ghost.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Graphics.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Load.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Load.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Maps.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Maps.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Menu.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Menu.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Meta.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Meta.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/MovingGhost.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/MovingGhost.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Play.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Play.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Player.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Player.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Sprite.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Sprite.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Start.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Start.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Switch.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Switch.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Void.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Void.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Way.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Way.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/keys.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/keys.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/main.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/map.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/map.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/move_block.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/move_block.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/static_blocks.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/static_blocks.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/wall.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/wall.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/wallSpikes.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/wallSpikes.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
