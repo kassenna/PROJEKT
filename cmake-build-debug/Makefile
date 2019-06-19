@@ -123,60 +123,6 @@ SFMLApp/fast:
 	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/build
 .PHONY : SFMLApp/fast
 
-Blocks.o: Blocks.cpp.o
-
-.PHONY : Blocks.o
-
-# target to build an object file
-Blocks.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Blocks.cpp.o
-.PHONY : Blocks.cpp.o
-
-Blocks.i: Blocks.cpp.i
-
-.PHONY : Blocks.i
-
-# target to preprocess a source file
-Blocks.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Blocks.cpp.i
-.PHONY : Blocks.cpp.i
-
-Blocks.s: Blocks.cpp.s
-
-.PHONY : Blocks.s
-
-# target to generate assembly for a file
-Blocks.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Blocks.cpp.s
-.PHONY : Blocks.cpp.s
-
-Corners.o: Corners.cpp.o
-
-.PHONY : Corners.o
-
-# target to build an object file
-Corners.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Corners.cpp.o
-.PHONY : Corners.cpp.o
-
-Corners.i: Corners.cpp.i
-
-.PHONY : Corners.i
-
-# target to preprocess a source file
-Corners.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Corners.cpp.i
-.PHONY : Corners.cpp.i
-
-Corners.s: Corners.cpp.s
-
-.PHONY : Corners.s
-
-# target to generate assembly for a file
-Corners.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Corners.cpp.s
-.PHONY : Corners.cpp.s
-
 Ghost.o: Ghost.cpp.o
 
 .PHONY : Ghost.o
@@ -204,6 +150,33 @@ Ghost.cpp.s:
 	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Ghost.cpp.s
 .PHONY : Ghost.cpp.s
 
+Graphic.o: Graphic.cpp.o
+
+.PHONY : Graphic.o
+
+# target to build an object file
+Graphic.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Graphic.cpp.o
+.PHONY : Graphic.cpp.o
+
+Graphic.i: Graphic.cpp.i
+
+.PHONY : Graphic.i
+
+# target to preprocess a source file
+Graphic.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Graphic.cpp.i
+.PHONY : Graphic.cpp.i
+
+Graphic.s: Graphic.cpp.s
+
+.PHONY : Graphic.s
+
+# target to generate assembly for a file
+Graphic.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Graphic.cpp.s
+.PHONY : Graphic.cpp.s
+
 Load.o: Load.cpp.o
 
 .PHONY : Load.o
@@ -230,6 +203,276 @@ Load.s: Load.cpp.s
 Load.cpp.s:
 	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Load.cpp.s
 .PHONY : Load.cpp.s
+
+Map/Corners.o: Map/Corners.cpp.o
+
+.PHONY : Map/Corners.o
+
+# target to build an object file
+Map/Corners.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o
+.PHONY : Map/Corners.cpp.o
+
+Map/Corners.i: Map/Corners.cpp.i
+
+.PHONY : Map/Corners.i
+
+# target to preprocess a source file
+Map/Corners.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Corners.cpp.i
+.PHONY : Map/Corners.cpp.i
+
+Map/Corners.s: Map/Corners.cpp.s
+
+.PHONY : Map/Corners.s
+
+# target to generate assembly for a file
+Map/Corners.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Corners.cpp.s
+.PHONY : Map/Corners.cpp.s
+
+Map/Lock.o: Map/Lock.cpp.o
+
+.PHONY : Map/Lock.o
+
+# target to build an object file
+Map/Lock.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o
+.PHONY : Map/Lock.cpp.o
+
+Map/Lock.i: Map/Lock.cpp.i
+
+.PHONY : Map/Lock.i
+
+# target to preprocess a source file
+Map/Lock.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Lock.cpp.i
+.PHONY : Map/Lock.cpp.i
+
+Map/Lock.s: Map/Lock.cpp.s
+
+.PHONY : Map/Lock.s
+
+# target to generate assembly for a file
+Map/Lock.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Lock.cpp.s
+.PHONY : Map/Lock.cpp.s
+
+Map/Meta.o: Map/Meta.cpp.o
+
+.PHONY : Map/Meta.o
+
+# target to build an object file
+Map/Meta.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o
+.PHONY : Map/Meta.cpp.o
+
+Map/Meta.i: Map/Meta.cpp.i
+
+.PHONY : Map/Meta.i
+
+# target to preprocess a source file
+Map/Meta.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Meta.cpp.i
+.PHONY : Map/Meta.cpp.i
+
+Map/Meta.s: Map/Meta.cpp.s
+
+.PHONY : Map/Meta.s
+
+# target to generate assembly for a file
+Map/Meta.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Meta.cpp.s
+.PHONY : Map/Meta.cpp.s
+
+Map/Portal.o: Map/Portal.cpp.o
+
+.PHONY : Map/Portal.o
+
+# target to build an object file
+Map/Portal.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o
+.PHONY : Map/Portal.cpp.o
+
+Map/Portal.i: Map/Portal.cpp.i
+
+.PHONY : Map/Portal.i
+
+# target to preprocess a source file
+Map/Portal.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Portal.cpp.i
+.PHONY : Map/Portal.cpp.i
+
+Map/Portal.s: Map/Portal.cpp.s
+
+.PHONY : Map/Portal.s
+
+# target to generate assembly for a file
+Map/Portal.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Portal.cpp.s
+.PHONY : Map/Portal.cpp.s
+
+Map/Start.o: Map/Start.cpp.o
+
+.PHONY : Map/Start.o
+
+# target to build an object file
+Map/Start.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Start.cpp.o
+.PHONY : Map/Start.cpp.o
+
+Map/Start.i: Map/Start.cpp.i
+
+.PHONY : Map/Start.i
+
+# target to preprocess a source file
+Map/Start.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Start.cpp.i
+.PHONY : Map/Start.cpp.i
+
+Map/Start.s: Map/Start.cpp.s
+
+.PHONY : Map/Start.s
+
+# target to generate assembly for a file
+Map/Start.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Start.cpp.s
+.PHONY : Map/Start.cpp.s
+
+Map/Void.o: Map/Void.cpp.o
+
+.PHONY : Map/Void.o
+
+# target to build an object file
+Map/Void.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Void.cpp.o
+.PHONY : Map/Void.cpp.o
+
+Map/Void.i: Map/Void.cpp.i
+
+.PHONY : Map/Void.i
+
+# target to preprocess a source file
+Map/Void.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Void.cpp.i
+.PHONY : Map/Void.cpp.i
+
+Map/Void.s: Map/Void.cpp.s
+
+.PHONY : Map/Void.s
+
+# target to generate assembly for a file
+Map/Void.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Void.cpp.s
+.PHONY : Map/Void.cpp.s
+
+Map/Way.o: Map/Way.cpp.o
+
+.PHONY : Map/Way.o
+
+# target to build an object file
+Map/Way.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Way.cpp.o
+.PHONY : Map/Way.cpp.o
+
+Map/Way.i: Map/Way.cpp.i
+
+.PHONY : Map/Way.i
+
+# target to preprocess a source file
+Map/Way.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Way.cpp.i
+.PHONY : Map/Way.cpp.i
+
+Map/Way.s: Map/Way.cpp.s
+
+.PHONY : Map/Way.s
+
+# target to generate assembly for a file
+Map/Way.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Way.cpp.s
+.PHONY : Map/Way.cpp.s
+
+Map/static_blocks.o: Map/static_blocks.cpp.o
+
+.PHONY : Map/static_blocks.o
+
+# target to build an object file
+Map/static_blocks.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o
+.PHONY : Map/static_blocks.cpp.o
+
+Map/static_blocks.i: Map/static_blocks.cpp.i
+
+.PHONY : Map/static_blocks.i
+
+# target to preprocess a source file
+Map/static_blocks.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.i
+.PHONY : Map/static_blocks.cpp.i
+
+Map/static_blocks.s: Map/static_blocks.cpp.s
+
+.PHONY : Map/static_blocks.s
+
+# target to generate assembly for a file
+Map/static_blocks.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.s
+.PHONY : Map/static_blocks.cpp.s
+
+Map/wall.o: Map/wall.cpp.o
+
+.PHONY : Map/wall.o
+
+# target to build an object file
+Map/wall.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/wall.cpp.o
+.PHONY : Map/wall.cpp.o
+
+Map/wall.i: Map/wall.cpp.i
+
+.PHONY : Map/wall.i
+
+# target to preprocess a source file
+Map/wall.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/wall.cpp.i
+.PHONY : Map/wall.cpp.i
+
+Map/wall.s: Map/wall.cpp.s
+
+.PHONY : Map/wall.s
+
+# target to generate assembly for a file
+Map/wall.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/wall.cpp.s
+.PHONY : Map/wall.cpp.s
+
+Map/wallSpikes.o: Map/wallSpikes.cpp.o
+
+.PHONY : Map/wallSpikes.o
+
+# target to build an object file
+Map/wallSpikes.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o
+.PHONY : Map/wallSpikes.cpp.o
+
+Map/wallSpikes.i: Map/wallSpikes.cpp.i
+
+.PHONY : Map/wallSpikes.i
+
+# target to preprocess a source file
+Map/wallSpikes.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.i
+.PHONY : Map/wallSpikes.cpp.i
+
+Map/wallSpikes.s: Map/wallSpikes.cpp.s
+
+.PHONY : Map/wallSpikes.s
+
+# target to generate assembly for a file
+Map/wallSpikes.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.s
+.PHONY : Map/wallSpikes.cpp.s
 
 Maps.o: Maps.cpp.o
 
@@ -284,33 +527,6 @@ Menu.s: Menu.cpp.s
 Menu.cpp.s:
 	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Menu.cpp.s
 .PHONY : Menu.cpp.s
-
-Meta.o: Meta.cpp.o
-
-.PHONY : Meta.o
-
-# target to build an object file
-Meta.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Meta.cpp.o
-.PHONY : Meta.cpp.o
-
-Meta.i: Meta.cpp.i
-
-.PHONY : Meta.i
-
-# target to preprocess a source file
-Meta.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Meta.cpp.i
-.PHONY : Meta.cpp.i
-
-Meta.s: Meta.cpp.s
-
-.PHONY : Meta.s
-
-# target to generate assembly for a file
-Meta.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Meta.cpp.s
-.PHONY : Meta.cpp.s
 
 MovingGhost.o: MovingGhost.cpp.o
 
@@ -420,33 +636,6 @@ Sprite.cpp.s:
 	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Sprite.cpp.s
 .PHONY : Sprite.cpp.s
 
-Start.o: Start.cpp.o
-
-.PHONY : Start.o
-
-# target to build an object file
-Start.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Start.cpp.o
-.PHONY : Start.cpp.o
-
-Start.i: Start.cpp.i
-
-.PHONY : Start.i
-
-# target to preprocess a source file
-Start.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Start.cpp.i
-.PHONY : Start.cpp.i
-
-Start.s: Start.cpp.s
-
-.PHONY : Start.s
-
-# target to generate assembly for a file
-Start.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Start.cpp.s
-.PHONY : Start.cpp.s
-
 Switch.o: Switch.cpp.o
 
 .PHONY : Switch.o
@@ -473,60 +662,6 @@ Switch.s: Switch.cpp.s
 Switch.cpp.s:
 	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Switch.cpp.s
 .PHONY : Switch.cpp.s
-
-Void.o: Void.cpp.o
-
-.PHONY : Void.o
-
-# target to build an object file
-Void.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Void.cpp.o
-.PHONY : Void.cpp.o
-
-Void.i: Void.cpp.i
-
-.PHONY : Void.i
-
-# target to preprocess a source file
-Void.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Void.cpp.i
-.PHONY : Void.cpp.i
-
-Void.s: Void.cpp.s
-
-.PHONY : Void.s
-
-# target to generate assembly for a file
-Void.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Void.cpp.s
-.PHONY : Void.cpp.s
-
-Way.o: Way.cpp.o
-
-.PHONY : Way.o
-
-# target to build an object file
-Way.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Way.cpp.o
-.PHONY : Way.cpp.o
-
-Way.i: Way.cpp.i
-
-.PHONY : Way.i
-
-# target to preprocess a source file
-Way.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Way.cpp.i
-.PHONY : Way.cpp.i
-
-Way.s: Way.cpp.s
-
-.PHONY : Way.s
-
-# target to generate assembly for a file
-Way.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Way.cpp.s
-.PHONY : Way.cpp.s
 
 keys.o: keys.cpp.o
 
@@ -609,114 +744,6 @@ map.cpp.s:
 	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/map.cpp.s
 .PHONY : map.cpp.s
 
-move_block.o: move_block.cpp.o
-
-.PHONY : move_block.o
-
-# target to build an object file
-move_block.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/move_block.cpp.o
-.PHONY : move_block.cpp.o
-
-move_block.i: move_block.cpp.i
-
-.PHONY : move_block.i
-
-# target to preprocess a source file
-move_block.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/move_block.cpp.i
-.PHONY : move_block.cpp.i
-
-move_block.s: move_block.cpp.s
-
-.PHONY : move_block.s
-
-# target to generate assembly for a file
-move_block.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/move_block.cpp.s
-.PHONY : move_block.cpp.s
-
-static_blocks.o: static_blocks.cpp.o
-
-.PHONY : static_blocks.o
-
-# target to build an object file
-static_blocks.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/static_blocks.cpp.o
-.PHONY : static_blocks.cpp.o
-
-static_blocks.i: static_blocks.cpp.i
-
-.PHONY : static_blocks.i
-
-# target to preprocess a source file
-static_blocks.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/static_blocks.cpp.i
-.PHONY : static_blocks.cpp.i
-
-static_blocks.s: static_blocks.cpp.s
-
-.PHONY : static_blocks.s
-
-# target to generate assembly for a file
-static_blocks.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/static_blocks.cpp.s
-.PHONY : static_blocks.cpp.s
-
-wall.o: wall.cpp.o
-
-.PHONY : wall.o
-
-# target to build an object file
-wall.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/wall.cpp.o
-.PHONY : wall.cpp.o
-
-wall.i: wall.cpp.i
-
-.PHONY : wall.i
-
-# target to preprocess a source file
-wall.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/wall.cpp.i
-.PHONY : wall.cpp.i
-
-wall.s: wall.cpp.s
-
-.PHONY : wall.s
-
-# target to generate assembly for a file
-wall.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/wall.cpp.s
-.PHONY : wall.cpp.s
-
-wallSpikes.o: wallSpikes.cpp.o
-
-.PHONY : wallSpikes.o
-
-# target to build an object file
-wallSpikes.cpp.o:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/wallSpikes.cpp.o
-.PHONY : wallSpikes.cpp.o
-
-wallSpikes.i: wallSpikes.cpp.i
-
-.PHONY : wallSpikes.i
-
-# target to preprocess a source file
-wallSpikes.cpp.i:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/wallSpikes.cpp.i
-.PHONY : wallSpikes.cpp.i
-
-wallSpikes.s: wallSpikes.cpp.s
-
-.PHONY : wallSpikes.s
-
-# target to generate assembly for a file
-wallSpikes.cpp.s:
-	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/wallSpikes.cpp.s
-.PHONY : wallSpikes.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -726,27 +753,51 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... SFMLApp"
 	@echo "... edit_cache"
-	@echo "... Blocks.o"
-	@echo "... Blocks.i"
-	@echo "... Blocks.s"
-	@echo "... Corners.o"
-	@echo "... Corners.i"
-	@echo "... Corners.s"
 	@echo "... Ghost.o"
 	@echo "... Ghost.i"
 	@echo "... Ghost.s"
+	@echo "... Graphic.o"
+	@echo "... Graphic.i"
+	@echo "... Graphic.s"
 	@echo "... Load.o"
 	@echo "... Load.i"
 	@echo "... Load.s"
+	@echo "... Map/Corners.o"
+	@echo "... Map/Corners.i"
+	@echo "... Map/Corners.s"
+	@echo "... Map/Lock.o"
+	@echo "... Map/Lock.i"
+	@echo "... Map/Lock.s"
+	@echo "... Map/Meta.o"
+	@echo "... Map/Meta.i"
+	@echo "... Map/Meta.s"
+	@echo "... Map/Portal.o"
+	@echo "... Map/Portal.i"
+	@echo "... Map/Portal.s"
+	@echo "... Map/Start.o"
+	@echo "... Map/Start.i"
+	@echo "... Map/Start.s"
+	@echo "... Map/Void.o"
+	@echo "... Map/Void.i"
+	@echo "... Map/Void.s"
+	@echo "... Map/Way.o"
+	@echo "... Map/Way.i"
+	@echo "... Map/Way.s"
+	@echo "... Map/static_blocks.o"
+	@echo "... Map/static_blocks.i"
+	@echo "... Map/static_blocks.s"
+	@echo "... Map/wall.o"
+	@echo "... Map/wall.i"
+	@echo "... Map/wall.s"
+	@echo "... Map/wallSpikes.o"
+	@echo "... Map/wallSpikes.i"
+	@echo "... Map/wallSpikes.s"
 	@echo "... Maps.o"
 	@echo "... Maps.i"
 	@echo "... Maps.s"
 	@echo "... Menu.o"
 	@echo "... Menu.i"
 	@echo "... Menu.s"
-	@echo "... Meta.o"
-	@echo "... Meta.i"
-	@echo "... Meta.s"
 	@echo "... MovingGhost.o"
 	@echo "... MovingGhost.i"
 	@echo "... MovingGhost.s"
@@ -759,18 +810,9 @@ help:
 	@echo "... Sprite.o"
 	@echo "... Sprite.i"
 	@echo "... Sprite.s"
-	@echo "... Start.o"
-	@echo "... Start.i"
-	@echo "... Start.s"
 	@echo "... Switch.o"
 	@echo "... Switch.i"
 	@echo "... Switch.s"
-	@echo "... Void.o"
-	@echo "... Void.i"
-	@echo "... Void.s"
-	@echo "... Way.o"
-	@echo "... Way.i"
-	@echo "... Way.s"
 	@echo "... keys.o"
 	@echo "... keys.i"
 	@echo "... keys.s"
@@ -780,18 +822,6 @@ help:
 	@echo "... map.o"
 	@echo "... map.i"
 	@echo "... map.s"
-	@echo "... move_block.o"
-	@echo "... move_block.i"
-	@echo "... move_block.s"
-	@echo "... static_blocks.o"
-	@echo "... static_blocks.i"
-	@echo "... static_blocks.s"
-	@echo "... wall.o"
-	@echo "... wall.i"
-	@echo "... wall.s"
-	@echo "... wallSpikes.o"
-	@echo "... wallSpikes.i"
-	@echo "... wallSpikes.s"
 .PHONY : help
 
 

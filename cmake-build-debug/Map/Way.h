@@ -14,6 +14,8 @@ Corners* corners;
 public:
     Way(char, int, int);
 void draw(sf::RenderWindow&);
+    void Reaction(Player * player);
+    virtual ~Way();
 };
 
 

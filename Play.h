@@ -10,17 +10,18 @@
 
 class Play : public Map{
 protected:
+    int check = 64;
     void draw();
     bool _Sprites();
     void PlayerTurn();
-    bool check_player();
-    bool checkPool(int, int, int, int, char);
-    bool moveSprite(int, int);
+    void check_player();
 
+    bool moveSprite(int, int);
+    bool win = false;
 public:
     Play(sf::RenderWindow& window1, Maps * maps);
     bool play();
-    bool win();
+
 
 
 };

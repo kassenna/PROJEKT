@@ -5,6 +5,7 @@
 #ifndef PROJEKT_SPIKES_H
 #define PROJEKT_SPIKES_H
 
+#include "../../Graphic.h"
 #include <array>
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/Graphics.hpp>
@@ -18,6 +19,7 @@ class Corners{
 public:
     Corners( int x, int y, char type); //spikes
     void draw(sf::RenderWindow&);
+    ~Corners();
 };
 
 

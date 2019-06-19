@@ -11,6 +11,7 @@
 class Start : public Void{
 public:
     Start(int x, int y, char _type);
+//void Reaction(Player * player);
 };
 
 

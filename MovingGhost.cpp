@@ -4,10 +4,11 @@
 
 #include <iostream>
 #include "MovingGhost.h"
+#include "Graphic.h"
 
 
-MovingGhost::MovingGhost(int _x, int _y, int dX, int dY) :Sprites(_x, _y, dX, dY, 320, 1) {
-    texture.loadFromFile("grafiki/ghost.png");
+MovingGhost::MovingGhost(int _x, int _y, unsigned char temp) :Sprites(_x, _y, (temp/31)%2, (temp/16)%2, 320, 1) {
+    texture = Graphic::getInstance().load("ghost");
     sprite.setTexture(texture);
     sprite.setPosition(_x*64+16,_y*64+16);
 }
@@ -26,6 +27,7 @@ void MovingGhost::move(bool _change) {
                 yp++;
             else if (dy < 0)
                 yp--;
+
         }
          else{   dx*=-1;
             dy*=-1;
@@ -35,6 +37,11 @@ void MovingGhost::move(bool _change) {
     }
     if(current_time%5== 0)
         sprite.move(dx, dy);
+}
+
+void MovingGhost::changeDir() {
+
+
 }
 
 

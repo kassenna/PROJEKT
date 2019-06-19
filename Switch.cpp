@@ -32,15 +32,10 @@ void Switch::draw(sf::RenderWindow &window) {
 
 }
 
-void Switch::setText(const sf::Text &text) {
-    Switch::text = text;
+void Switch::setText(const std::string &text) {
+    Switch::text = sf::Text(text, font);
+    Switch::text.setPosition(x, y);
+    Switch::text.setCharacterSize(size);
 }
 
-const sf::Text &Switch::getText() const {
-    return text;
-}
 
-void Switch::setColor(const sf::Color &color) {
-    Switch::color = color;
-    text.setColor(color);
-}

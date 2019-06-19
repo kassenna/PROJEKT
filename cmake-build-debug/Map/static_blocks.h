@@ -7,18 +7,24 @@
 #include <cstring>
 #include <SFML/Graphics/Sprite.hpp>
 
-#include <SFML/Graphics.hpp>
-
+#include "../../Player.h"
+//#include "../../Graphic.h"
 class StaticBlocks
 {
 protected:
-    sf::Texture texture;
     char type;
+    int x, y;
+    sf::Texture texture;
     sf::Sprite sprite;
+
 public:
-    StaticBlocks();
+    int getX() const;
+    int getY() const;
+    StaticBlocks(int, int);
     virtual void draw(sf::RenderWindow &);
     char getType() const;
+    virtual void Reaction(Player*)=0;
+
 
 
 };

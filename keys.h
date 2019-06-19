@@ -7,12 +7,13 @@
 
 
 #include "Sprite.h"
+#include "Player.h"
 
 class Keys : public Sprites {
 
 public:
     Keys(int, int);
-    bool Colision(sf::Sprite s);
+    bool Colision(Player * player);
 };
 
 

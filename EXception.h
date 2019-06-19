@@ -8,11 +8,11 @@
 #include <bits/exception.h>
 
 class Out_of_map : public std::exception{
-char * text = "wyjscie poza mape";
+
 public:
 
-    const char *what() const override {
-        return text;
+    virtual const char *what() const throw() {
+        return "ERROR";
     }
-};
+} ;
 #endif //PROJEKT_EXCEPTION_H

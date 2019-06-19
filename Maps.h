@@ -8,13 +8,29 @@
 #include <string>
 
 class Maps{
-public:
+
     int nr_map =0;
-    bool locked=true;
+    bool locked=false;
     std::string odczyt;
     int X;
     int Y;
+
+public:
+    void SetOdczyt(const char &);
+    void SetOdczyt(const std::string &);
+
+    void setX(int x);
+
+    void setY(int y);
+
+    const std::string &getOdczyt() const;
+
+    int getX() const;
+
+    int getY() const;
+
     Maps(){}
+    Maps(int);
 
 };
 

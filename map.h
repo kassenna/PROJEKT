@@ -2,7 +2,7 @@
 #ifndef PROJEKT_MAP_H
 #define PROJEKT_MAP_H
 #include <vector>
-#include "static_blocks.h"
+#include "cmake-build-debug/Map/static_blocks.h"
 #include <fstream>
 #include <iostream>
 #include <SFML/Window.hpp>
@@ -12,6 +12,8 @@
 #include <list>
 #include "Load.h"
 #include "Maps.h"
+#include "cmake-build-debug/Map/Portal.h"
+
 class Map {
 protected:
     Maps * map;
@@ -23,9 +25,12 @@ protected:
     std::vector<std::unique_ptr<Keys>> keys;
     sf::RenderWindow* window;
     sf::Keyboard::Key key;
-    sf::Vector2i meta;
+    std::list<Portal*> portals;
 public:
     Map(Maps * maps);
     void setMap();
-   };
+    void setPortals();
+
+    virtual ~Map();
+};
 #endif //PROJEKT_MAP_H

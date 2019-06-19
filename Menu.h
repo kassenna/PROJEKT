@@ -14,10 +14,11 @@
 
 class Menu : public Load
 {
-
+int i =0;
 
       sf::RenderWindow window;
 std::list<Switch*> menu;
+Switch* nbr_map =0;
 
 public:
     Menu();
@@ -25,6 +26,8 @@ void Choise(sf::Keyboard::Key&);
 void AddSwitch(int x, int y,  const char * _text, const sf::Color &color, int size);
 void AddSwitch(int x, int y,  int nr, const sf::Color &color, int size);
 void draw();
+
+    virtual ~Menu();
 
 
 };

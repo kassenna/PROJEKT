@@ -13,8 +13,10 @@ protected:
     std::deque<Maps*>_maps;
     std::deque<Maps*>::iterator current;
     char* input;
+    int _max = 0;
 
 public:
+    ~Load();
     Load(char *input);
     void CreateMap();
     void setCurrent();

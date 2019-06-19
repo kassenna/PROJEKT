@@ -4,17 +4,17 @@
 #include <string>
 #include "Menu.h"
 #include "Play.h"
-
+#include "EXception.h"
+#include <type_traits>
 void Menu::AddSwitch(int x, int y, const char *_text, const sf::Color &color, int size) {
 Switch* s= new Switch(x, y, _text, color, size);
 menu.emplace_back(s);
-
 }
+
 void Menu::AddSwitch(int x, int y, int nr, const sf::Color &color, int size) {
-
     Switch* s= new Switch(x, y, nr, color, size);
+    nbr_map = s;
     menu.emplace_back(s);
-
 }
 
 void Menu::draw() {
@@ -25,59 +25,59 @@ void Menu::draw() {
         (*it)->draw(window);
         it = next(it,1);
     }
-
 }
 
-Menu::Menu() :Load("Map_ff") {
+Menu::Menu() :Load("Mapy2") {
 CreateMap();
-    AddSwitch(650, 100, 1, sf::Color::White, 50 );
-    AddSwitch(650, 15, "START", sf::Color::White,50 );
-    AddSwitch(650, 300, "WYJSCIE", sf::Color::White,50 );
-    setCurrent();
-   // window.setFramerateLimit(60);
-    window.create( sf::VideoMode( 1200, 800 ), " " );
+    AddSwitch(650, 100, 0,         sf::Color::White, 50 );
+    AddSwitch(650, 15,  "START",   sf::Color::White, 50 );
+    AddSwitch(650, 300, "WYJSCIE", sf::Color::White, 50 );
+
+    window.create( sf::VideoMode( 1600, 1000 ), " " );
     while(window.isOpen()) {
         window.clear(sf::Color(0, 0, 0 ));
         draw();
         window.display();
 
-        sf::Event zdarzenie;
+        sf::Event event;
 
-        while (window.pollEvent(zdarzenie)) {
-            if (zdarzenie.type == sf::Event::Closed)
+        while (window.pollEvent(event)) {
+            if (event.type == sf::Event::Closed)
                 window.close();
-          else  if (zdarzenie.type == sf::Event::KeyPressed) {
-                if( zdarzenie.key.code == sf::Keyboard::Escape)
+          else  if (event.type == sf::Event::KeyPressed) {
+                if( event.key.code == sf::Keyboard::Escape)
                     window.close();
-                else Choise(zdarzenie.key.code);
+                else  Choise(event.key.code);
 
-
-                }
-            }
+              }
         }
-
     }
+
+}
+
 
 void Menu::Choise(sf::Keyboard::Key & key) {
 
-/*
-if(key==sf::Keyboard::Up && current!=menu.begin()) {
-    (*current)->setColor(sf::Color::White);
-    advance(current, 1);
-    (*current)->setColor(sf::Color::Magenta);
+    if(key==sf::Keyboard::Right && i<_max-1){
+        current = std::next(current, 1);
 
-} else if(key==sf::Keyboard::Down && current!=it)
-{
-    (*current)->setColor(sf::Color::White);
-    advance(current, -1);
-    (*current)->setColor(sf::Color::Magenta);
+        i++;
 
-} else if(key==sf::Keyboard::Return)
-    enter( std::distance(menu.begin(), current));
-*/
-if(key==sf::Keyboard::Return) {
-    Play p(window, *current);
-    p.play();
+        nbr_map->setText((std::to_string(i)));
+    }
+   else if(key==sf::Keyboard::Left && i>0) {
+           current = std::prev(current, 1);
+               i--;
+               nbr_map->setText(std::to_string(i));
+               current = std::next(current, 1);
+           }
+   else if(key==sf::Keyboard::Return){
+       Play p(window, *current);
+       p.play();
+    }
 }
+
+Menu::~Menu() {
+
 }
 

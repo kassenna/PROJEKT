@@ -12,7 +12,7 @@ class Meta : public StaticBlocks {
 
 public:
     Meta(char _type, int x, int y);
-
+    void Reaction(Player *player);
 };
 
 

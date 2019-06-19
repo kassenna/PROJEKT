@@ -5,6 +5,7 @@
 #include <iostream>
 #include <SFML/Graphics/RenderWindow.hpp>
 #include "Ghost.h"
+#include "Graphic.h"
 
 void Ghost::draw(sf::RenderWindow &window) {
  if(change==true)
@@ -15,10 +16,10 @@ void Ghost::draw(sf::RenderWindow &window) {
 
 
 Ghost::Ghost(int x, int y) : Sprites(x, y, 0, 0, 1000, 1000){
-    texture.loadFromFile("grafiki/ghost.png");
+    texture = Graphic::getInstance().load("ghost");
     sprite.setTexture(texture);
     sprite.setPosition(64*x+16, 64*y+16);
-    hideGhost.loadFromFile("grafiki/hideghost.png");
+    hideGhost = Graphic::getInstance().load("hideghost");
     HideGhost.setTexture(hideGhost);
     HideGhost.setPosition(64*x+16,64*y+16);
 

@@ -8,7 +8,7 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/Text.hpp>
 
-class Switch {
+class Switch{
 private:
     sf::Color color;
     sf::Font font;
@@ -16,13 +16,12 @@ private:
     sf::Text text;
     int size;
 public:
-    void setColor(const sf::Color &color);
-    const sf::Text &getText() const;
-    void setText(const sf::Text &text);
+    void setText(const std::string &text);
     Switch(int x, int y, const char* text, const sf::Color &color, int size);
     Switch(int x, int y, int nr, const sf::Color &color, int size);
     void enter(int nr, sf::RenderWindow &window);
     void draw(sf::RenderWindow & window);
+
 
 
 };

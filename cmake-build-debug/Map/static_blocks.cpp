@@ -5,7 +5,7 @@
 
 #include <SFML/Graphics.hpp>
 
-StaticBlocks::StaticBlocks(){
+StaticBlocks::StaticBlocks(int x , int y ) : x(x), y(y){
 };
 
 void StaticBlocks::draw(sf::RenderWindow & window)
@@ -16,6 +16,15 @@ char StaticBlocks::getType() const
 {
        return type;
 }
+
+int StaticBlocks::getX() const {
+    return x;
+}
+
+int StaticBlocks::getY() const {
+    return y;
+}
+
 
 
 

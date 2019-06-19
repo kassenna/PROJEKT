@@ -13,28 +13,28 @@ Load::Load( char *in)  {
 }
 
 void Load::CreateMap() {
-
     unsigned char temp;
     std::ifstream plik;
-    plik.open("Mapa_ff", std::ios::in | std::ios::binary);
+    plik.open("ArcyMarbi3", std::ios::in | std::ios::binary);
 
     if(!plik.is_open())
     {
         std::cout << "brak pliku";  return;
     }
     plik.read((char*)& temp, sizeof temp);
+
     while(temp!=0xFF){
-    int i=0;
-        Maps* n= new Maps;
-        n->X = temp;
+        Maps* n= new Maps(_max);
+        _max++;
+        n->setX(temp);
         plik.read(( char * ) & temp, sizeof(temp) );
         if(temp==0xFF)
             break;
-        n->Y=temp;
+        n->setY(temp);
         while(temp !=0xFF)
         {
             plik.read((char*)& temp, sizeof temp);
-            n->odczyt+=temp;
+            n->SetOdczyt(temp);
         }
         plik.read((char*)& temp, sizeof temp);
    _maps.emplace_back(n);
@@ -45,4 +45,9 @@ void Load::CreateMap() {
 void Load::setCurrent() {
 current = _maps.begin();
 
+}
+
+Load::~Load() {
+delete input;
+input = nullptr;
 }

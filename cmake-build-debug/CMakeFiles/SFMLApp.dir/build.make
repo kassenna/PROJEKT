@@ -70,18 +70,18 @@ CMakeFiles/SFMLApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/main.cpp -o CMakeFiles/SFMLApp.dir/main.cpp.s
 
-CMakeFiles/SFMLApp.dir/static_blocks.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/static_blocks.cpp.o: ../static_blocks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLApp.dir/static_blocks.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/static_blocks.cpp.o -c /home/kasia/CLionProjects/PROJEKT/static_blocks.cpp
+CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o: Map/static_blocks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.cpp
 
-CMakeFiles/SFMLApp.dir/static_blocks.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/static_blocks.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/static_blocks.cpp > CMakeFiles/SFMLApp.dir/static_blocks.cpp.i
+CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.cpp > CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.i
 
-CMakeFiles/SFMLApp.dir/static_blocks.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/static_blocks.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/static_blocks.cpp -o CMakeFiles/SFMLApp.dir/static_blocks.cpp.s
+CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.cpp -o CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.s
 
 CMakeFiles/SFMLApp.dir/map.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/map.cpp.o: ../map.cpp
@@ -135,100 +135,87 @@ CMakeFiles/SFMLApp.dir/Ghost.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Ghost.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Ghost.cpp -o CMakeFiles/SFMLApp.dir/Ghost.cpp.s
 
-CMakeFiles/SFMLApp.dir/Start.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/Start.cpp.o: ../Start.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFMLApp.dir/Start.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Start.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Start.cpp
+CMakeFiles/SFMLApp.dir/Map/Start.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/Start.cpp.o: Map/Start.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFMLApp.dir/Map/Start.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/Start.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.cpp
 
-CMakeFiles/SFMLApp.dir/Start.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Start.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/Start.cpp > CMakeFiles/SFMLApp.dir/Start.cpp.i
+CMakeFiles/SFMLApp.dir/Map/Start.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/Start.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.cpp > CMakeFiles/SFMLApp.dir/Map/Start.cpp.i
 
-CMakeFiles/SFMLApp.dir/Start.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Start.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Start.cpp -o CMakeFiles/SFMLApp.dir/Start.cpp.s
+CMakeFiles/SFMLApp.dir/Map/Start.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/Start.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.cpp -o CMakeFiles/SFMLApp.dir/Map/Start.cpp.s
 
-CMakeFiles/SFMLApp.dir/Void.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/Void.cpp.o: ../Void.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SFMLApp.dir/Void.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Void.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Void.cpp
+CMakeFiles/SFMLApp.dir/Map/Void.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/Void.cpp.o: Map/Void.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SFMLApp.dir/Map/Void.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/Void.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.cpp
 
-CMakeFiles/SFMLApp.dir/Void.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Void.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/Void.cpp > CMakeFiles/SFMLApp.dir/Void.cpp.i
+CMakeFiles/SFMLApp.dir/Map/Void.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/Void.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.cpp > CMakeFiles/SFMLApp.dir/Map/Void.cpp.i
 
-CMakeFiles/SFMLApp.dir/Void.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Void.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Void.cpp -o CMakeFiles/SFMLApp.dir/Void.cpp.s
+CMakeFiles/SFMLApp.dir/Map/Void.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/Void.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.cpp -o CMakeFiles/SFMLApp.dir/Map/Void.cpp.s
 
-CMakeFiles/SFMLApp.dir/wall.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/wall.cpp.o: ../wall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SFMLApp.dir/wall.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/wall.cpp.o -c /home/kasia/CLionProjects/PROJEKT/wall.cpp
+CMakeFiles/SFMLApp.dir/Map/wall.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/wall.cpp.o: Map/wall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SFMLApp.dir/Map/wall.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/wall.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.cpp
 
-CMakeFiles/SFMLApp.dir/wall.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/wall.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/wall.cpp > CMakeFiles/SFMLApp.dir/wall.cpp.i
+CMakeFiles/SFMLApp.dir/Map/wall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/wall.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.cpp > CMakeFiles/SFMLApp.dir/Map/wall.cpp.i
 
-CMakeFiles/SFMLApp.dir/wall.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/wall.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/wall.cpp -o CMakeFiles/SFMLApp.dir/wall.cpp.s
+CMakeFiles/SFMLApp.dir/Map/wall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/wall.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.cpp -o CMakeFiles/SFMLApp.dir/Map/wall.cpp.s
 
-CMakeFiles/SFMLApp.dir/Way.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/Way.cpp.o: ../Way.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SFMLApp.dir/Way.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Way.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Way.cpp
+CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: Map/Way.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SFMLApp.dir/Map/Way.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/Way.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.cpp
 
-CMakeFiles/SFMLApp.dir/Way.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Way.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/Way.cpp > CMakeFiles/SFMLApp.dir/Way.cpp.i
+CMakeFiles/SFMLApp.dir/Map/Way.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/Way.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.cpp > CMakeFiles/SFMLApp.dir/Map/Way.cpp.i
 
-CMakeFiles/SFMLApp.dir/Way.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Way.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Way.cpp -o CMakeFiles/SFMLApp.dir/Way.cpp.s
+CMakeFiles/SFMLApp.dir/Map/Way.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/Way.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.cpp -o CMakeFiles/SFMLApp.dir/Map/Way.cpp.s
 
-CMakeFiles/SFMLApp.dir/Corners.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/Corners.cpp.o: ../Corners.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SFMLApp.dir/Corners.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Corners.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Corners.cpp
+CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o: Map/Corners.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.cpp
 
-CMakeFiles/SFMLApp.dir/Corners.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Corners.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/Corners.cpp > CMakeFiles/SFMLApp.dir/Corners.cpp.i
+CMakeFiles/SFMLApp.dir/Map/Corners.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/Corners.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.cpp > CMakeFiles/SFMLApp.dir/Map/Corners.cpp.i
 
-CMakeFiles/SFMLApp.dir/Corners.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Corners.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Corners.cpp -o CMakeFiles/SFMLApp.dir/Corners.cpp.s
+CMakeFiles/SFMLApp.dir/Map/Corners.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/Corners.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.cpp -o CMakeFiles/SFMLApp.dir/Map/Corners.cpp.s
 
-CMakeFiles/SFMLApp.dir/wallSpikes.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/wallSpikes.cpp.o: ../wallSpikes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SFMLApp.dir/wallSpikes.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/wallSpikes.cpp.o -c /home/kasia/CLionProjects/PROJEKT/wallSpikes.cpp
+CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: Map/wallSpikes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.cpp
 
-CMakeFiles/SFMLApp.dir/wallSpikes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/wallSpikes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/wallSpikes.cpp > CMakeFiles/SFMLApp.dir/wallSpikes.cpp.i
+CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.cpp > CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.i
 
-CMakeFiles/SFMLApp.dir/wallSpikes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/wallSpikes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/wallSpikes.cpp -o CMakeFiles/SFMLApp.dir/wallSpikes.cpp.s
-
-CMakeFiles/SFMLApp.dir/move_block.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/move_block.cpp.o: ../move_block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SFMLApp.dir/move_block.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/move_block.cpp.o -c /home/kasia/CLionProjects/PROJEKT/move_block.cpp
-
-CMakeFiles/SFMLApp.dir/move_block.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/move_block.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/move_block.cpp > CMakeFiles/SFMLApp.dir/move_block.cpp.i
-
-CMakeFiles/SFMLApp.dir/move_block.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/move_block.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/move_block.cpp -o CMakeFiles/SFMLApp.dir/move_block.cpp.s
+CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.cpp -o CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.s
 
 CMakeFiles/SFMLApp.dir/MovingGhost.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/MovingGhost.cpp.o: ../MovingGhost.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SFMLApp.dir/MovingGhost.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SFMLApp.dir/MovingGhost.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/MovingGhost.cpp.o -c /home/kasia/CLionProjects/PROJEKT/MovingGhost.cpp
 
 CMakeFiles/SFMLApp.dir/MovingGhost.cpp.i: cmake_force
@@ -239,22 +226,22 @@ CMakeFiles/SFMLApp.dir/MovingGhost.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/MovingGhost.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/MovingGhost.cpp -o CMakeFiles/SFMLApp.dir/MovingGhost.cpp.s
 
-CMakeFiles/SFMLApp.dir/Meta.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/Meta.cpp.o: ../Meta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SFMLApp.dir/Meta.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Meta.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Meta.cpp
+CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o: Map/Meta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.cpp
 
-CMakeFiles/SFMLApp.dir/Meta.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Meta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/Meta.cpp > CMakeFiles/SFMLApp.dir/Meta.cpp.i
+CMakeFiles/SFMLApp.dir/Map/Meta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/Meta.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.cpp > CMakeFiles/SFMLApp.dir/Map/Meta.cpp.i
 
-CMakeFiles/SFMLApp.dir/Meta.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Meta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Meta.cpp -o CMakeFiles/SFMLApp.dir/Meta.cpp.s
+CMakeFiles/SFMLApp.dir/Map/Meta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/Meta.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.cpp -o CMakeFiles/SFMLApp.dir/Map/Meta.cpp.s
 
 CMakeFiles/SFMLApp.dir/Menu.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/Menu.cpp.o: ../Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SFMLApp.dir/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SFMLApp.dir/Menu.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Menu.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Menu.cpp
 
 CMakeFiles/SFMLApp.dir/Menu.cpp.i: cmake_force
@@ -265,22 +252,22 @@ CMakeFiles/SFMLApp.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Menu.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Menu.cpp -o CMakeFiles/SFMLApp.dir/Menu.cpp.s
 
-CMakeFiles/SFMLApp.dir/Blocks.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
-CMakeFiles/SFMLApp.dir/Blocks.cpp.o: ../Blocks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SFMLApp.dir/Blocks.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Blocks.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Blocks.cpp
+CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o: Map/Lock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.cpp
 
-CMakeFiles/SFMLApp.dir/Blocks.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Blocks.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/Blocks.cpp > CMakeFiles/SFMLApp.dir/Blocks.cpp.i
+CMakeFiles/SFMLApp.dir/Map/Lock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/Lock.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.cpp > CMakeFiles/SFMLApp.dir/Map/Lock.cpp.i
 
-CMakeFiles/SFMLApp.dir/Blocks.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Blocks.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Blocks.cpp -o CMakeFiles/SFMLApp.dir/Blocks.cpp.s
+CMakeFiles/SFMLApp.dir/Map/Lock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/Lock.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.cpp -o CMakeFiles/SFMLApp.dir/Map/Lock.cpp.s
 
 CMakeFiles/SFMLApp.dir/keys.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/keys.cpp.o: ../keys.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/SFMLApp.dir/keys.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SFMLApp.dir/keys.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/keys.cpp.o -c /home/kasia/CLionProjects/PROJEKT/keys.cpp
 
 CMakeFiles/SFMLApp.dir/keys.cpp.i: cmake_force
@@ -293,7 +280,7 @@ CMakeFiles/SFMLApp.dir/keys.cpp.s: cmake_force
 
 CMakeFiles/SFMLApp.dir/Play.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/Play.cpp.o: ../Play.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/SFMLApp.dir/Play.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/SFMLApp.dir/Play.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Play.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Play.cpp
 
 CMakeFiles/SFMLApp.dir/Play.cpp.i: cmake_force
@@ -306,7 +293,7 @@ CMakeFiles/SFMLApp.dir/Play.cpp.s: cmake_force
 
 CMakeFiles/SFMLApp.dir/Switch.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/Switch.cpp.o: ../Switch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/SFMLApp.dir/Switch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/SFMLApp.dir/Switch.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Switch.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Switch.cpp
 
 CMakeFiles/SFMLApp.dir/Switch.cpp.i: cmake_force
@@ -319,7 +306,7 @@ CMakeFiles/SFMLApp.dir/Switch.cpp.s: cmake_force
 
 CMakeFiles/SFMLApp.dir/Load.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/Load.cpp.o: ../Load.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/SFMLApp.dir/Load.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/SFMLApp.dir/Load.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Load.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Load.cpp
 
 CMakeFiles/SFMLApp.dir/Load.cpp.i: cmake_force
@@ -332,7 +319,7 @@ CMakeFiles/SFMLApp.dir/Load.cpp.s: cmake_force
 
 CMakeFiles/SFMLApp.dir/Maps.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
 CMakeFiles/SFMLApp.dir/Maps.cpp.o: ../Maps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/SFMLApp.dir/Maps.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/SFMLApp.dir/Maps.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Maps.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Maps.cpp
 
 CMakeFiles/SFMLApp.dir/Maps.cpp.i: cmake_force
@@ -343,59 +330,87 @@ CMakeFiles/SFMLApp.dir/Maps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Maps.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Maps.cpp -o CMakeFiles/SFMLApp.dir/Maps.cpp.s
 
+CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o: Map/Portal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o -c /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.cpp
+
+CMakeFiles/SFMLApp.dir/Map/Portal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Map/Portal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.cpp > CMakeFiles/SFMLApp.dir/Map/Portal.cpp.i
+
+CMakeFiles/SFMLApp.dir/Map/Portal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Map/Portal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.cpp -o CMakeFiles/SFMLApp.dir/Map/Portal.cpp.s
+
+CMakeFiles/SFMLApp.dir/Graphic.cpp.o: CMakeFiles/SFMLApp.dir/flags.make
+CMakeFiles/SFMLApp.dir/Graphic.cpp.o: ../Graphic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/SFMLApp.dir/Graphic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFMLApp.dir/Graphic.cpp.o -c /home/kasia/CLionProjects/PROJEKT/Graphic.cpp
+
+CMakeFiles/SFMLApp.dir/Graphic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLApp.dir/Graphic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kasia/CLionProjects/PROJEKT/Graphic.cpp > CMakeFiles/SFMLApp.dir/Graphic.cpp.i
+
+CMakeFiles/SFMLApp.dir/Graphic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLApp.dir/Graphic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kasia/CLionProjects/PROJEKT/Graphic.cpp -o CMakeFiles/SFMLApp.dir/Graphic.cpp.s
+
 # Object files for target SFMLApp
 SFMLApp_OBJECTS = \
 "CMakeFiles/SFMLApp.dir/main.cpp.o" \
-"CMakeFiles/SFMLApp.dir/static_blocks.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o" \
 "CMakeFiles/SFMLApp.dir/map.cpp.o" \
 "CMakeFiles/SFMLApp.dir/Player.cpp.o" \
 "CMakeFiles/SFMLApp.dir/Sprite.cpp.o" \
 "CMakeFiles/SFMLApp.dir/Ghost.cpp.o" \
-"CMakeFiles/SFMLApp.dir/Start.cpp.o" \
-"CMakeFiles/SFMLApp.dir/Void.cpp.o" \
-"CMakeFiles/SFMLApp.dir/wall.cpp.o" \
-"CMakeFiles/SFMLApp.dir/Way.cpp.o" \
-"CMakeFiles/SFMLApp.dir/Corners.cpp.o" \
-"CMakeFiles/SFMLApp.dir/wallSpikes.cpp.o" \
-"CMakeFiles/SFMLApp.dir/move_block.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/Start.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/Void.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/wall.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/Way.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o" \
 "CMakeFiles/SFMLApp.dir/MovingGhost.cpp.o" \
-"CMakeFiles/SFMLApp.dir/Meta.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o" \
 "CMakeFiles/SFMLApp.dir/Menu.cpp.o" \
-"CMakeFiles/SFMLApp.dir/Blocks.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o" \
 "CMakeFiles/SFMLApp.dir/keys.cpp.o" \
 "CMakeFiles/SFMLApp.dir/Play.cpp.o" \
 "CMakeFiles/SFMLApp.dir/Switch.cpp.o" \
 "CMakeFiles/SFMLApp.dir/Load.cpp.o" \
-"CMakeFiles/SFMLApp.dir/Maps.cpp.o"
+"CMakeFiles/SFMLApp.dir/Maps.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o" \
+"CMakeFiles/SFMLApp.dir/Graphic.cpp.o"
 
 # External object files for target SFMLApp
 SFMLApp_EXTERNAL_OBJECTS =
 
 SFMLApp: CMakeFiles/SFMLApp.dir/main.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/static_blocks.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/map.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/Player.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/Sprite.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/Ghost.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/Start.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/Void.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/wall.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/Way.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/Corners.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/wallSpikes.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/move_block.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/Start.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/Void.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/wall.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/Way.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/MovingGhost.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/Meta.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/Menu.cpp.o
-SFMLApp: CMakeFiles/SFMLApp.dir/Blocks.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/keys.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/Play.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/Switch.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/Load.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/Maps.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o
+SFMLApp: CMakeFiles/SFMLApp.dir/Graphic.cpp.o
 SFMLApp: CMakeFiles/SFMLApp.dir/build.make
 SFMLApp: CMakeFiles/SFMLApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable SFMLApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable SFMLApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SFMLApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

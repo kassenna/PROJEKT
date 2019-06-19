@@ -14,15 +14,25 @@
 
 
 class Player : public Sprites {
-//sf::Keyboard::Key key;
+
     int d = 2;
+    bool life = true;
+    bool win=false;
+    int keys=0;
 public:
+
     Player(int xp, int yp);
     Player();
     const sf::Sprite &getSprite() const;
     void draw(sf::RenderWindow & window);
     void changeDir(sf::Keyboard::Key);
-    bool Colision(int,int);
+    void setSpite(int y, int x);
+    bool isLife() const;
+    void setLife();
+    bool isWin();
+    void setWin();
+    void setKey(int);
+    void decKey();
 
 };
 

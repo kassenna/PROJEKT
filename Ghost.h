@@ -5,7 +5,7 @@
 #ifndef PROJEKT_GHOST_H
 #define PROJEKT_GHOST_H
 
-
+#include <memory>
 #include "Sprite.h"
 
 class Ghost : public Sprites {

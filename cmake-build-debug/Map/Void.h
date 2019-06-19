@@ -9,8 +9,9 @@
 class Void : public  StaticBlocks {
 
 public:
-    Void();
-    Void(int x, int y);
 
+    Void(int x, int y);
+    Void(unsigned char, int , int);
+    void Reaction(Player * player);
 };
 #endif //PROJEKT_VOID_H

@@ -11,8 +11,8 @@ class MovingGhost : public Sprites {
   //  int time = 640;
    // int current_time = 1;
 public:
-    MovingGhost(int x, int y, int dX, int dY);
-
+    MovingGhost(int x, int y, unsigned char temp);
+    void changeDir();
     void move(bool);
 };
 

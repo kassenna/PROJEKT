@@ -86,21 +86,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Blocks.cpp">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Blocks.h">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Corners.cpp">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Corners.h">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Create_map.h">
-			<Option target="SFMLApp"/>
-		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/EXception.h">
 			<Option target="SFMLApp"/>
 		</Unit>
@@ -110,7 +95,10 @@
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Ghost.h">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Graphics.h">
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Graphic.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Graphic.h">
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Load.cpp">
@@ -129,12 +117,6 @@
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Menu.h">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Meta.cpp">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Meta.h">
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/MovingGhost.cpp">
@@ -161,28 +143,70 @@
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Sprite.h">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Start.cpp">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Start.h">
-			<Option target="SFMLApp"/>
-		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Switch.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Switch.h">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Void.cpp">
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Void.h">
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Way.cpp">
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Way.h">
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.h">
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/keys.cpp">
@@ -198,30 +222,6 @@
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/map.h">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/move_block.cpp">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/move_block.h">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/static_blocks.cpp">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/static_blocks.h">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/wall.cpp">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/wall.h">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/wallSpikes.cpp">
-			<Option target="SFMLApp"/>
-		</Unit>
-		<Unit filename="/home/kasia/CLionProjects/PROJEKT/wallSpikes.h">
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/CMakeLists.txt">

@@ -8,38 +8,44 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/Graphics/Sprite.hpp>
-
+#include <memory>
 class Sprites  {
-
-protected:
-public:
-    const sf::Sprite &getSprite() const;
 
 protected:
     sf::Sprite sprite;
     sf::Texture texture;
-    int time = 8;
-    int current_time = 8;
+
+    int time = 8, current_time = 8;
+
     int xp=1, yp=1;
     int dx=0, dy=0;
 public:
+
     Sprites(int x, int y);
     Sprites(int x, int y, int dx, int dy);
     Sprites(int x, int y, int dx, int dy, int t, int ctime);
 
-    int getXp() const;
-    void setXp(int xp);
-    int getYp() const;
-    void setYp(int yp);
-    int getDx() const;
-    void setDx(int dx);
-    int getDy() const;
 
+    int getDx() const;
+    int getDy() const;
+    int getXp() const;
+    int getYp() const;
+    const sf::Sprite &getSprite() const;
+
+    void setDx(int dx);
     void setDy(int dy);
+    void setXp(int xp);
+    void setYp(int yp);
+
+    void incX();
+    void incY();
+    void decX();
+    void decY();
 
     virtual bool Colision(sf::Sprite);
     virtual void move(bool moving);
     virtual void draw(sf::RenderWindow & window);
+
 
 };
 
