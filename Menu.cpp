@@ -29,9 +29,9 @@ void Menu::draw() {
 
 Menu::Menu() :Load("Mapy") {
 CreateMap();
-    AddSwitch(650, 100, 0,         sf::Color::White, 60 );
-    AddSwitch(650, 15,  "START",   sf::Color::White, 60 );
-    AddSwitch(650, 300, "WYJSCIE", sf::Color::White, 60 );
+    AddSwitch(600, 100, 0,         sf::Color::White, 80 );
+    AddSwitch(600, 15,  "START (enter)",   sf::Color::White, 60 );
+    AddSwitch(600, 300, "WYJSCIE (esc)", sf::Color::White, 60 );
 
     window.create( sf::VideoMode( 1600, 1000 ), " " );
     while(window.isOpen()) {
