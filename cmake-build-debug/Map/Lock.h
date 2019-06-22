@@ -10,8 +10,7 @@
 #include "../../Sprite.h"
 
 class Lock : public StaticBlocks {
-sf::Texture t;
-unsigned char temp;
+//sf::Texture t;
 bool lock = false;
 public:
         Lock(unsigned char, int x, int y);

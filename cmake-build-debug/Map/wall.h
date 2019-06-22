@@ -13,7 +13,9 @@
 
 class Wall : public  StaticBlocks {
 public:
-    Wall(char types, int x, int y);
+    Wall(unsigned char types, int x, int y);
+    Wall( int x, int y, unsigned char types);
+
     Wall();
 virtual void Reaction(Player * player);
 

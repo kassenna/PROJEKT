@@ -2,6 +2,7 @@
 // Created by kasia on 01.06.19.
 //
 
+#include <iostream>
 #include "Switch.h"
 
 Switch::Switch(int x, int y,  const char * _text, const sf::Color &color, int size) :
@@ -17,7 +18,7 @@ x(x), y(y),  color(color), size(size) {
 
 Switch::Switch(int x, int y,  int nr, const sf::Color &color, int size) :
         x(x), y(y),  color(color), size(size) {
-    font.loadFromFile("font.TTF");
+    font.loadFromFile("font2.ttf");
     text.setString(std::to_string(nr));
     text.setPosition(x, y);
     text.setColor(color);
@@ -33,6 +34,7 @@ void Switch::draw(sf::RenderWindow &window) {
 }
 
 void Switch::setText(const std::string &text) {
+   // std::cout << text << " ";
     Switch::text = sf::Text(text, font);
     Switch::text.setPosition(x, y);
     Switch::text.setCharacterSize(size);

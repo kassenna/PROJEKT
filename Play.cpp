@@ -76,15 +76,14 @@ void Play::check_player() {
     int dy = player1->getDy();
 
     if(dx==0 && dy==0) {
-        frame = 1;
+        player1->SetTime(1);
         return;
     }
-        frame--;
-    if(frame==0){
+    player1->DecTime();
+    if(player1->Time()){
         int x = player1->getXp();
         int y = player1->getYp();
-        frame=frame_static;
-
+        player1->SetTime();
 
             if(dy >0)
                 _map[y + 1][x]->Reaction(player1);
@@ -123,9 +122,9 @@ bool Play::_Sprites() {
 }
 
 bool Play::moveSprite(int y, int x) {
-    if(_map[x][y]->getType() & 0x80)
-        return true;
     if (x > map->getX() || y > map->getY() || x  < 0 || y  < 0)
+        return true;
+    if(_map[x][y]->getType() & 0x80)
         return true;
     return false;
 

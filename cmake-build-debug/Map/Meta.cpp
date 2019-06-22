@@ -6,11 +6,11 @@
 #include "Meta.h"
 #include "../../Graphic.h"
 
-Meta::Meta(char _type, int x, int y) : StaticBlocks(x,y){
-type = _type;
+Meta::Meta(unsigned char _type, int x, int y) : Void(x, y, _type
+){
+
 texture = Graphic::getInstance().load("meta");
-sprite.setTexture(texture);
-sprite.setPosition(64*x, 64*y);
+setSprite();
 
 }
 

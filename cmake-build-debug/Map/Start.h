@@ -9,9 +9,10 @@
 #include "Void.h"
 
 class Start : public Void{
+
 public:
-    Start(int x, int y, char _type);
-//void Reaction(Player * player);
+    Start(int x, int y, unsigned char _type);
+
 };
 
 

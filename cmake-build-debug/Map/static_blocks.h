@@ -24,7 +24,9 @@ public:
     virtual void draw(sf::RenderWindow &);
     char getType() const;
     virtual void Reaction(Player*)=0;
+    void setSprite();
 
+    StaticBlocks(unsigned char type, int x, int y);
 
 
 };

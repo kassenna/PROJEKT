@@ -7,10 +7,12 @@
 #include "Graphic.h"
 
 
-MovingGhost::MovingGhost(int _x, int _y, unsigned char temp) :Sprites(_x, _y, (temp/31)%2, (temp/16)%2, 320, 1) {
+MovingGhost::MovingGhost(int x, int y, unsigned char temp) :Sprites(x, y, 320, 1) {
+    dx = (temp/32)%2;
+    dy = (temp/16)%2,
     texture = Graphic::getInstance().load("ghost");
     sprite.setTexture(texture);
-    sprite.setPosition(_x*64+16,_y*64+16);
+    sprite.setPosition(x*64+16,y*64+16);
 }
 
 void MovingGhost::move(bool _change) {
@@ -41,6 +43,10 @@ void MovingGhost::move(bool _change) {
 
 void MovingGhost::changeDir() {
 
+
+}
+
+void MovingGhost::SetSprite() {
 
 }
 

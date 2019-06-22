@@ -10,7 +10,7 @@ class Void : public  StaticBlocks {
 
 public:
 
-    Void(int x, int y);
+    Void(int x, int y, unsigned char type);
     Void(unsigned char, int , int);
     void Reaction(Player * player);
 };

@@ -10,16 +10,6 @@
 bits/exception.h
 -
 
-/home/kasia/CLionProjects/PROJEKT/Ghost.cpp
-iostream
--
-SFML/Graphics/RenderWindow.hpp
--
-Ghost.h
-/home/kasia/CLionProjects/PROJEKT/Ghost.h
-Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
-
 /home/kasia/CLionProjects/PROJEKT/Ghost.h
 memory
 -
@@ -88,14 +78,6 @@ deque
 list
 -
 
-/home/kasia/CLionProjects/PROJEKT/MovingGhost.cpp
-iostream
--
-MovingGhost.h
-/home/kasia/CLionProjects/PROJEKT/MovingGhost.h
-Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
-
 /home/kasia/CLionProjects/PROJEKT/MovingGhost.h
 Sprite.h
 /home/kasia/CLionProjects/PROJEKT/Sprite.h
@@ -112,14 +94,6 @@ EXception.h
 map.h
 /home/kasia/CLionProjects/PROJEKT/map.h
 
-/home/kasia/CLionProjects/PROJEKT/Player.cpp
-iostream
--
-Player.h
-/home/kasia/CLionProjects/PROJEKT/Player.h
-Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
-
 /home/kasia/CLionProjects/PROJEKT/Player.h
 SFML/Graphics/Sprite.hpp
 -
@@ -128,12 +102,6 @@ SFML/Graphics/Texture.hpp
 SFML/Window.hpp
 -
 SFML/Graphics/RenderWindow.hpp
--
-Sprite.h
-/home/kasia/CLionProjects/PROJEKT/Sprite.h
-
-/home/kasia/CLionProjects/PROJEKT/Sprite.cpp
-iostream
 -
 Sprite.h
 /home/kasia/CLionProjects/PROJEKT/Sprite.h
@@ -148,10 +116,6 @@ SFML/Graphics/Sprite.hpp
 memory
 -
 
-/home/kasia/CLionProjects/PROJEKT/Switch.cpp
-Switch.h
-/home/kasia/CLionProjects/PROJEKT/Switch.h
-
 /home/kasia/CLionProjects/PROJEKT/Switch.h
 SFML/Graphics/Color.hpp
 -
@@ -160,13 +124,9 @@ SFML/Graphics/RenderWindow.hpp
 SFML/Graphics/Text.hpp
 -
 
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.cpp
-iostream
--
-Corners.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
-../../Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
+/home/kasia/CLionProjects/PROJEKT/ball.h
+Sprite.h
+/home/kasia/CLionProjects/PROJEKT/Sprite.h
 
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
 ../../Graphic.h
@@ -180,85 +140,41 @@ SFML/Graphics.hpp
 static_blocks.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.cpp
-iostream
--
-Lock.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.h
-../../Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
-
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.h
 static_blocks.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 ../../Sprite.h
 /home/kasia/CLionProjects/PROJEKT/Sprite.h
 
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.cpp
-iostream
--
-Meta.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.h
-../../Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
-
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.h
 static_blocks.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
+Void.h
+/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h
 
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.cpp
-Portal.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.h
-../../Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
+/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Pistol.h
+../../Player.h
+/home/kasia/CLionProjects/PROJEKT/Player.h
+wall.h
+/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.h
 
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.h
 static_blocks.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.cpp
-Start.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.h
-../../Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
-
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.h
 Void.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h
-
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.cpp
-iostream
--
-Void.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h
-../../Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
 
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h
 static_blocks.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
-
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.cpp
-Way.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.h
 
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.h
 Void.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h
 Corners.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
-
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.cpp
-cstring
--
-static_blocks.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
-iostream
--
-SFML/Graphics/Texture.hpp
--
-SFML/Graphics.hpp
--
 
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 cstring
@@ -268,12 +184,6 @@ SFML/Graphics/Sprite.hpp
 ../../Player.h
 /home/kasia/CLionProjects/PROJEKT/Player.h
 
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.cpp
-SFML/Graphics/Texture.hpp
--
-wall.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.h
-
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.h
 SFML/Graphics.hpp
 -
@@ -284,25 +194,11 @@ static_blocks.h
 Corners.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
 
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.cpp
-iostream
--
-wallSpikes.h
-/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.h
-
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.h
 wall.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.h
 Corners.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
-
-/home/kasia/CLionProjects/PROJEKT/keys.cpp
-iostream
--
-keys.h
-/home/kasia/CLionProjects/PROJEKT/keys.h
-Graphic.h
-/home/kasia/CLionProjects/PROJEKT/Graphic.h
 
 /home/kasia/CLionProjects/PROJEKT/keys.h
 Sprite.h
@@ -359,6 +255,10 @@ keys.h
 /home/kasia/CLionProjects/PROJEKT/keys.h
 cmake-build-debug/Map/Lock.h
 /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.h
+cmake-build-debug/Map/Pistol.h
+/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Pistol.h
+ball.h
+/home/kasia/CLionProjects/PROJEKT/ball.h
 
 /home/kasia/CLionProjects/PROJEKT/map.h
 vector

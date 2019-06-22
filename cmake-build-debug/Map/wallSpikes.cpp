@@ -13,7 +13,7 @@ void WallSpikes::draw(sf::RenderWindow & window) {
 
 }
 
-WallSpikes::WallSpikes(char types, int x, int y) : Wall(types, x, y) {
+WallSpikes::WallSpikes(unsigned char types, int x, int y) : Wall(types, x, y) {
     spikes = new Corners(x, y, types);
 
 }
@@ -31,7 +31,7 @@ void WallSpikes::Reaction(Player *player) {
 
     player->setDx(0);
     player->setDy(0);
-    std::cout <<'\n'<< player->isLife() << '\n';
+
 }
 
 WallSpikes::~WallSpikes() {

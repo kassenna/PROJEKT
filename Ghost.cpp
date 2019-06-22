@@ -27,7 +27,7 @@ Ghost::Ghost(int x, int y) : Sprites(x, y, 0, 0, 1000, 1000){
 
 void Ghost::move(bool) {
     current_time--;
-    if (current_time <= 0) {
+    if (current_time == 0) {
         current_time = time;
         if (change == true)
             change = false;

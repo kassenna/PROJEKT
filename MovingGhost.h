@@ -14,6 +14,7 @@ public:
     MovingGhost(int x, int y, unsigned char temp);
     void changeDir();
     void move(bool);
+    void SetSprite();
 };
 
 

@@ -15,7 +15,7 @@ Load::Load( char *in)  {
 void Load::CreateMap() {
     unsigned char temp;
     std::ifstream plik;
-    plik.open("ArcyMarbi3", std::ios::in | std::ios::binary);
+    plik.open("mapy", std::ios::in | std::ios::binary);
 
     if(!plik.is_open())
     {
@@ -40,6 +40,7 @@ void Load::CreateMap() {
    _maps.emplace_back(n);
     }
     setCurrent();
+
 }
 
 void Load::setCurrent() {

@@ -10,14 +10,14 @@
 
 class Play : public Map{
 protected:
-    int check = 64;
+
     void draw();
     bool _Sprites();
     void PlayerTurn();
     void check_player();
 
     bool moveSprite(int, int);
-    bool win = false;
+    //bool win = false;
 public:
     Play(sf::RenderWindow& window1, Maps * maps);
     bool play();

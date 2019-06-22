@@ -44,7 +44,7 @@ if(sprite.getGlobalBounds().intersects(s.getGlobalBounds()))    return true;
         return false;
 }
 
-Sprites::Sprites(int x, int y, int dx, int dy) :dx(dx), dy(dy), xp(x), yp(y){}
+//Sprites::Sprites(int x, int y, int dx, int dy) :dx(dx), dy(dy), xp(x), yp(y){}
 
 Sprites::Sprites(int x, int y, int dx, int dy, int t, int ctime) : Sprites(x, y, dx, dy){
    current_time = ctime;
@@ -79,3 +79,5 @@ void Sprites::setXp(int xp) {
 void Sprites::setYp(int yp) {
     Sprites::yp = yp;
 }
+
+Sprites::Sprites(int xp, int yp, int time, int currentTime) : time(time), current_time(currentTime), xp(xp), yp(yp) {}

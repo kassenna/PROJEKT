@@ -6,13 +6,13 @@
 #include "Player.h"
 #include "Graphic.h"
 
-Player::Player() : Sprites(1, 1) {
+Player::Player() : Sprites(1, 1, 0, 0, 32, 1) {
     texture = Graphic::getInstance().load("Player");
     sprite.setTexture(texture);
     sprite.setPosition(80, 80);
 }
 
-Player::Player(int xp, int yp) : Sprites(xp, yp) {
+Player::Player(int xp, int yp) : Sprites(xp, yp, 0, 0, 320, 1) {
 texture = Graphic::getInstance().load("Player");
 sprite.setTexture(texture);
 sprite.setPosition(64*xp+16, 64*yp+16);
@@ -76,7 +76,7 @@ void Player::setKey(int k)  {
     if(k>=0)
     keys = k;
     else
-        k=0;
+        keys=0;
 }
 
 void Player::decKey() {
@@ -84,6 +84,27 @@ void Player::decKey() {
     keys--;
     else
         keys=0;
+}
+/*
+int Player::getTime() const {
+    return time;
+}
+*/
+void Player::DecTime() {
+current_time--;
+}
+
+void Player::SetTime() {
+current_time = time;
+}
+
+void Player::SetTime(int f) {
+current_time= f;
+}
+
+bool Player::Time() {
+    return current_time>0?0:1;
+
 }
 
 

@@ -5,20 +5,12 @@
 #include "../../Graphic.h"
 
 
-Void::Void(int x, int y) : StaticBlocks(x, y) {
-   type = 0x00;
-   texture = Graphic::getInstance().load("Void.png");
-   sprite.setTexture(texture);
-
-    sprite.setPosition(x*64, y*64);
-}
+Void::Void(int x, int y, unsigned char type) : StaticBlocks(type, x, y) {}
 
 Void::Void(unsigned char _type, int x, int y) : StaticBlocks(x, y) {
     type = _type;
     texture = Graphic::getInstance().load("Void.png");
-    sprite.setTexture(texture);
-
-    sprite.setPosition(x*64, y*64);
+    setSprite();
 }
 
 void Void::Reaction(Player *player) {

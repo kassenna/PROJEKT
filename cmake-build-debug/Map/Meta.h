@@ -7,11 +7,12 @@
 
 
 #include "static_blocks.h"
+#include "Void.h"
 
-class Meta : public StaticBlocks {
+class Meta : public Void {
 
 public:
-    Meta(char _type, int x, int y);
+    Meta(unsigned char _type, int x, int y);
     void Reaction(Player *player);
 };
 

@@ -20,79 +20,16 @@ CMakeFiles/SFMLApp.dir/Load.cpp.o: Map/static_blocks.h
 CMakeFiles/SFMLApp.dir/Load.cpp.o: ../keys.h
 CMakeFiles/SFMLApp.dir/Load.cpp.o: ../map.h
 
-CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o: ../Graphic.h
-CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o: Map/Corners.cpp
-CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o: Map/Corners.h
-CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o: Map/static_blocks.h
 
-CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o: ../Graphic.h
-CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o: Map/Lock.cpp
-CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o: Map/Lock.h
-CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o: Map/static_blocks.h
 
-CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o: ../Graphic.h
-CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o: Map/Meta.cpp
-CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o: Map/Meta.h
-CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o: Map/static_blocks.h
 
-CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o: ../Graphic.h
-CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o: Map/Portal.cpp
-CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o: Map/Portal.h
-CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o: Map/static_blocks.h
 
-CMakeFiles/SFMLApp.dir/Map/Start.cpp.o: ../Graphic.h
-CMakeFiles/SFMLApp.dir/Map/Start.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/Start.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/Start.cpp.o: Map/Start.cpp
-CMakeFiles/SFMLApp.dir/Map/Start.cpp.o: Map/Start.h
-CMakeFiles/SFMLApp.dir/Map/Start.cpp.o: Map/Void.h
-CMakeFiles/SFMLApp.dir/Map/Start.cpp.o: Map/static_blocks.h
 
-CMakeFiles/SFMLApp.dir/Map/Void.cpp.o: ../Graphic.h
-CMakeFiles/SFMLApp.dir/Map/Void.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/Void.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/Void.cpp.o: Map/Void.cpp
-CMakeFiles/SFMLApp.dir/Map/Void.cpp.o: Map/Void.h
-CMakeFiles/SFMLApp.dir/Map/Void.cpp.o: Map/static_blocks.h
 
-CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: ../Graphic.h
-CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: Map/Corners.h
-CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: Map/Void.h
-CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: Map/Way.cpp
-CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: Map/Way.h
-CMakeFiles/SFMLApp.dir/Map/Way.cpp.o: Map/static_blocks.h
 
-CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o: Map/static_blocks.cpp
-CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o: Map/static_blocks.h
 
-CMakeFiles/SFMLApp.dir/Map/wall.cpp.o: ../Graphic.h
-CMakeFiles/SFMLApp.dir/Map/wall.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/wall.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/wall.cpp.o: Map/Corners.h
-CMakeFiles/SFMLApp.dir/Map/wall.cpp.o: Map/static_blocks.h
-CMakeFiles/SFMLApp.dir/Map/wall.cpp.o: Map/wall.cpp
-CMakeFiles/SFMLApp.dir/Map/wall.cpp.o: Map/wall.h
 
-CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: ../Graphic.h
-CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: ../Player.h
-CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: ../Sprite.h
-CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: Map/Corners.h
-CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: Map/static_blocks.h
-CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: Map/wall.h
-CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: Map/wallSpikes.cpp
-CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o: Map/wallSpikes.h
+
 
 CMakeFiles/SFMLApp.dir/Maps.cpp.o: ../Maps.cpp
 CMakeFiles/SFMLApp.dir/Maps.cpp.o: ../Maps.h
@@ -139,6 +76,11 @@ CMakeFiles/SFMLApp.dir/Sprite.cpp.o: ../Sprite.h
 CMakeFiles/SFMLApp.dir/Switch.cpp.o: ../Switch.cpp
 CMakeFiles/SFMLApp.dir/Switch.cpp.o: ../Switch.h
 
+CMakeFiles/SFMLApp.dir/ball.cpp.o: ../Graphic.h
+CMakeFiles/SFMLApp.dir/ball.cpp.o: ../Sprite.h
+CMakeFiles/SFMLApp.dir/ball.cpp.o: ../ball.cpp
+CMakeFiles/SFMLApp.dir/ball.cpp.o: ../ball.h
+
 CMakeFiles/SFMLApp.dir/keys.cpp.o: ../Graphic.h
 CMakeFiles/SFMLApp.dir/keys.cpp.o: ../Player.h
 CMakeFiles/SFMLApp.dir/keys.cpp.o: ../Sprite.h
@@ -165,9 +107,11 @@ CMakeFiles/SFMLApp.dir/map.cpp.o: ../Maps.h
 CMakeFiles/SFMLApp.dir/map.cpp.o: ../MovingGhost.h
 CMakeFiles/SFMLApp.dir/map.cpp.o: ../Player.h
 CMakeFiles/SFMLApp.dir/map.cpp.o: ../Sprite.h
+CMakeFiles/SFMLApp.dir/map.cpp.o: ../ball.h
 CMakeFiles/SFMLApp.dir/map.cpp.o: Map/Corners.h
 CMakeFiles/SFMLApp.dir/map.cpp.o: Map/Lock.h
 CMakeFiles/SFMLApp.dir/map.cpp.o: Map/Meta.h
+CMakeFiles/SFMLApp.dir/map.cpp.o: Map/Pistol.h
 CMakeFiles/SFMLApp.dir/map.cpp.o: Map/Portal.h
 CMakeFiles/SFMLApp.dir/map.cpp.o: Map/Start.h
 CMakeFiles/SFMLApp.dir/map.cpp.o: Map/Void.h

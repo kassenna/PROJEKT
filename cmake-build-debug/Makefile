@@ -285,6 +285,33 @@ Map/Meta.cpp.s:
 	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Meta.cpp.s
 .PHONY : Map/Meta.cpp.s
 
+Map/Pistol.o: Map/Pistol.cpp.o
+
+.PHONY : Map/Pistol.o
+
+# target to build an object file
+Map/Pistol.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Pistol.cpp.o
+.PHONY : Map/Pistol.cpp.o
+
+Map/Pistol.i: Map/Pistol.cpp.i
+
+.PHONY : Map/Pistol.i
+
+# target to preprocess a source file
+Map/Pistol.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Pistol.cpp.i
+.PHONY : Map/Pistol.cpp.i
+
+Map/Pistol.s: Map/Pistol.cpp.s
+
+.PHONY : Map/Pistol.s
+
+# target to generate assembly for a file
+Map/Pistol.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Map/Pistol.cpp.s
+.PHONY : Map/Pistol.cpp.s
+
 Map/Portal.o: Map/Portal.cpp.o
 
 .PHONY : Map/Portal.o
@@ -663,6 +690,33 @@ Switch.cpp.s:
 	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/Switch.cpp.s
 .PHONY : Switch.cpp.s
 
+ball.o: ball.cpp.o
+
+.PHONY : ball.o
+
+# target to build an object file
+ball.cpp.o:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/ball.cpp.o
+.PHONY : ball.cpp.o
+
+ball.i: ball.cpp.i
+
+.PHONY : ball.i
+
+# target to preprocess a source file
+ball.cpp.i:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/ball.cpp.i
+.PHONY : ball.cpp.i
+
+ball.s: ball.cpp.s
+
+.PHONY : ball.s
+
+# target to generate assembly for a file
+ball.cpp.s:
+	$(MAKE) -f CMakeFiles/SFMLApp.dir/build.make CMakeFiles/SFMLApp.dir/ball.cpp.s
+.PHONY : ball.cpp.s
+
 keys.o: keys.cpp.o
 
 .PHONY : keys.o
@@ -771,6 +825,9 @@ help:
 	@echo "... Map/Meta.o"
 	@echo "... Map/Meta.i"
 	@echo "... Map/Meta.s"
+	@echo "... Map/Pistol.o"
+	@echo "... Map/Pistol.i"
+	@echo "... Map/Pistol.s"
 	@echo "... Map/Portal.o"
 	@echo "... Map/Portal.i"
 	@echo "... Map/Portal.s"
@@ -813,6 +870,9 @@ help:
 	@echo "... Switch.o"
 	@echo "... Switch.i"
 	@echo "... Switch.s"
+	@echo "... ball.o"
+	@echo "... ball.i"
+	@echo "... ball.s"
 	@echo "... keys.o"
 	@echo "... keys.i"
 	@echo "... keys.s"

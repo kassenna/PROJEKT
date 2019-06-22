@@ -6,14 +6,11 @@
 #include "Lock.h"
 #include "../../Graphic.h"
 
-Lock::Lock( unsigned char _type, int x, int y) : StaticBlocks(x,y){
-temp = _type;
-type = 0x00;
-    texture= Graphic::getInstance().load("Lock");
-    sprite.setTexture(texture);
-    sprite.setPosition(64*x, 64*y);
-t = Graphic::getInstance().load("wall");
+Lock::Lock( unsigned char _type, int x, int y) : StaticBlocks(_type, x,y){
 
+
+    texture= Graphic::getInstance().load("Lock");
+    setSprite();
 
 }
 
@@ -23,10 +20,9 @@ void Lock::draw(sf::RenderWindow &window) {
 }
 
 void Lock::Reaction(Player *player) {
-if(lock == false)
+if(!lock)
 {
- sprite.setTexture(t);
- type = temp;
+ sprite.setTexture(Graphic::getInstance().load("wall"));
     if(player->getDx()>0)
         player->incX();
     else if(player->getDx()<0)

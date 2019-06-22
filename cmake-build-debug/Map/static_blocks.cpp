@@ -25,6 +25,14 @@ int StaticBlocks::getY() const {
     return y;
 }
 
+void StaticBlocks::setSprite() {
+    sprite.setTexture(texture);
+    sprite.setPosition(64*x, 64*y);
+
+}
+
+StaticBlocks::StaticBlocks(unsigned char type, int x, int y) : type(type), x(x), y(y) {}
+
 
 
 

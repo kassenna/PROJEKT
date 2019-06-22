@@ -14,7 +14,7 @@ class WallSpikes : public Wall {
 protected:
     Corners* spikes;
     public:
-    WallSpikes(char types, int x, int y);
+    WallSpikes(unsigned char types, int x, int y);
     void Reaction(Player * player);
     void draw(sf::RenderWindow & window);
 

@@ -21,79 +21,16 @@ CMakeFiles/SFMLApp.dir/Load.cpp.o
  /home/kasia/CLionProjects/PROJEKT/keys.h
  /home/kasia/CLionProjects/PROJEKT/map.h
 CMakeFiles/SFMLApp.dir/Map/Corners.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Graphic.h
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 CMakeFiles/SFMLApp.dir/Map/Lock.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Graphic.h
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 CMakeFiles/SFMLApp.dir/Map/Meta.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Graphic.h
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
+CMakeFiles/SFMLApp.dir/Map/Pistol.cpp.o
 CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Graphic.h
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 CMakeFiles/SFMLApp.dir/Map/Start.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Graphic.h
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 CMakeFiles/SFMLApp.dir/Map/Void.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Graphic.h
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 CMakeFiles/SFMLApp.dir/Map/Way.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Graphic.h
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Way.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 CMakeFiles/SFMLApp.dir/Map/static_blocks.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
 CMakeFiles/SFMLApp.dir/Map/wall.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Graphic.h
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.h
 CMakeFiles/SFMLApp.dir/Map/wallSpikes.cpp.o
- /home/kasia/CLionProjects/PROJEKT/Graphic.h
- /home/kasia/CLionProjects/PROJEKT/Player.h
- /home/kasia/CLionProjects/PROJEKT/Sprite.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/static_blocks.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wall.h
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.cpp
- /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/wallSpikes.h
 CMakeFiles/SFMLApp.dir/Maps.cpp.o
  /home/kasia/CLionProjects/PROJEKT/Maps.cpp
  /home/kasia/CLionProjects/PROJEKT/Maps.h
@@ -139,6 +76,11 @@ CMakeFiles/SFMLApp.dir/Sprite.cpp.o
 CMakeFiles/SFMLApp.dir/Switch.cpp.o
  /home/kasia/CLionProjects/PROJEKT/Switch.cpp
  /home/kasia/CLionProjects/PROJEKT/Switch.h
+CMakeFiles/SFMLApp.dir/ball.cpp.o
+ /home/kasia/CLionProjects/PROJEKT/Graphic.h
+ /home/kasia/CLionProjects/PROJEKT/Sprite.h
+ /home/kasia/CLionProjects/PROJEKT/ball.cpp
+ /home/kasia/CLionProjects/PROJEKT/ball.h
 CMakeFiles/SFMLApp.dir/keys.cpp.o
  /home/kasia/CLionProjects/PROJEKT/Graphic.h
  /home/kasia/CLionProjects/PROJEKT/Player.h
@@ -166,9 +108,11 @@ CMakeFiles/SFMLApp.dir/map.cpp.o
  /home/kasia/CLionProjects/PROJEKT/MovingGhost.h
  /home/kasia/CLionProjects/PROJEKT/Player.h
  /home/kasia/CLionProjects/PROJEKT/Sprite.h
+ /home/kasia/CLionProjects/PROJEKT/ball.h
  /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.h
  /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Lock.h
  /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.h
+ /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Pistol.h
  /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.h
  /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Start.h
  /home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Void.h

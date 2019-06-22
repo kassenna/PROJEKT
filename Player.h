@@ -19,8 +19,16 @@ class Player : public Sprites {
     bool life = true;
     bool win=false;
     int keys=0;
-public:
+   // int frame = 32;
+    //int frame_static = 32;
 
+public:
+    //int getTime() const;
+
+    bool Time();
+    void DecTime();
+    void SetTime();
+    void SetTime(int);
     Player(int xp, int yp);
     Player();
     const sf::Sprite &getSprite() const;

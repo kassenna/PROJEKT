@@ -44,10 +44,9 @@ Graphic::Graphic() {
     portal.loadFromFile("grafiki/portal.png");
     graphic.insert(std::make_pair("portal", portal));
 
-
-    sf::Texture  kolce;
+    sf::Texture kolce;
     kolce.loadFromFile("grafiki/spikes2.png");
-    graphic.insert(std::make_pair("spikes2", kolce));
+    graphic.insert(std::make_pair("spikes", kolce));
 
 
     sf::Texture start;
@@ -58,7 +57,6 @@ Graphic::Graphic() {
     wall.loadFromFile("grafiki/wall.png");
     graphic.insert(std::make_pair("wall", wall));
 
-
     sf::Texture way;
     way.loadFromFile("grafiki/way.png");
     graphic.insert(std::make_pair("way", way));
@@ -66,6 +64,15 @@ Graphic::Graphic() {
     sf::Texture bloks;
     bloks.loadFromFile("grafiki/bloks2.png");
     graphic.insert(std::make_pair("bloks", bloks));
+
+    sf::Texture ball;
+    ball.loadFromFile("grafiki/ball.png");
+    graphic.insert(std::make_pair("ball", ball));
+
+
+    sf::Texture pistol;
+    pistol.loadFromFile("grafiki/Pistol.png");
+    graphic.insert(std::make_pair("pistol", pistol));
 
 }
 

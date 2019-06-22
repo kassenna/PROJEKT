@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SFMLApp.dir/Maps.cpp.o"
   "CMakeFiles/SFMLApp.dir/Map/Portal.cpp.o"
   "CMakeFiles/SFMLApp.dir/Graphic.cpp.o"
+  "CMakeFiles/SFMLApp.dir/Map/Pistol.cpp.o"
+  "CMakeFiles/SFMLApp.dir/ball.cpp.o"
   "SFMLApp.pdb"
   "SFMLApp"
 )

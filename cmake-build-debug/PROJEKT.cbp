@@ -149,6 +149,12 @@
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/Switch.h">
 			<Option target="SFMLApp"/>
 		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/ball.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/ball.h">
+			<Option target="SFMLApp"/>
+		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Corners.cpp">
 			<Option target="SFMLApp"/>
 		</Unit>
@@ -165,6 +171,12 @@
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Meta.h">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Pistol.cpp">
+			<Option target="SFMLApp"/>
+		</Unit>
+		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Pistol.h">
 			<Option target="SFMLApp"/>
 		</Unit>
 		<Unit filename="/home/kasia/CLionProjects/PROJEKT/cmake-build-debug/Map/Portal.cpp">

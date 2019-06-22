@@ -4,7 +4,7 @@
 
 #include "Way.h"
 
-Way::Way(char _type, int x, int y) : Void(_type ,x, y) {
+Way::Way(unsigned char _type, int x, int y) : Void(_type ,x, y) {
     corners = new Corners(x, y, _type);
 }
 

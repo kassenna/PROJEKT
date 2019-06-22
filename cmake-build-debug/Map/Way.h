@@ -12,7 +12,7 @@
 class Way : public Void {
 Corners* corners;
 public:
-    Way(char, int, int);
+    Way(unsigned char, int, int);
 void draw(sf::RenderWindow&);
     void Reaction(Player * player);
     virtual ~Way();
